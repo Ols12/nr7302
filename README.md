@@ -12,12 +12,12 @@ notes on accessing a zyxel nr7302 from telenor
 - supervisor/admin user disabled
 - backup/restore or modification of zcfg_config.json is overwritten on reload
 - Other attempts:
--- zycli mgmtsrvctl config --service HTTPS 4 --port 443 --trustdomain --trustdomain  add 192.168.2.0/24 
--- cat /usrdata/factory_reset 
--- zycli fwidcheck off
--- zycli modelcheck off		   
--- zycli sys  atwz
--- zycli sys atcr
+  - zycli mgmtsrvctl config --service HTTPS 4 --port 443 --trustdomain --trustdomain  add 192.168.2.0/24 
+  - cat /usrdata/factory_reset 
+  - zycli fwidcheck off
+  - zycli modelcheck off		   
+  - zycli sys  atwz
+  - zycli sys atcr
 
 
 ## next
