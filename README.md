@@ -1,6 +1,8 @@
 # nr7302
 notes on accessing a zyxel nr7302 from telenor
 
+
+
 ## initial state:
 - No accessible ports by default.
 - Serial console is available through headers.
@@ -19,6 +21,11 @@ notes on accessing a zyxel nr7302 from telenor
   - zycli sys  atwz
   - zycli sys atcr
 
+##firmware link
+- http://fw-acs.telekom.de/tftpboot/BDTX5GNR7302WZ/100ACHA4b5_F0.bin
+  - no web access
+  - zycast does not support reset to factory
+  - zycli does not support reset to factory?
 
 ## next
 - erase factory partition?
