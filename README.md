@@ -30,4 +30,5 @@ notes on accessing a zyxel nr7302 from telenor
 ## next
 - erase factory partition?
 - activate supervisor/admin user?
-- 
+- https://github.com/davidohne/Zyxel_NR7302
+  - change to enable admin user?
